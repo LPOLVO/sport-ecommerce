@@ -1,0 +1,495 @@
+{
+  "categories": [
+    {
+      "id": "football",
+      "name": "Football",
+      "icon": "⚽",
+      "description": "Football equipment and apparel"
+    },
+    {
+      "id": "running",
+      "name": "Running",
+      "icon": "🏃",
+      "description": "Running shoes and gear"
+    },
+    {
+      "id": "fitness",
+      "name": "Fitness",
+      "icon": "💪",
+      "description": "Gym and fitness equipment"
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor",
+      "icon": "⛰️",
+      "description": "Outdoor sports and hiking gear"
+    },
+    {
+      "id": "basketball",
+      "name": "Basketball",
+      "icon": "🏀",
+      "description": "Basketball shoes and equipment"
+    },
+    {
+      "id": "cycling",
+      "name": "Cycling",
+      "icon": "🚴",
+      "description": "Bikes and cycling gear"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Pro Football Cleat",
+      "brand": "SportGear",
+      "price": 129.99,
+      "originalPrice": 159.99,
+      "category": "football",
+      "description": "Professional-grade football cleats",
+      "longDescription": "Experience superior performance with these professional-grade football cleats. Engineered with advanced traction patterns and premium leather construction for optimal comfort and control on the field.",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&crop=faces",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400"
+      ],
+      "rating": 4.8,
+      "reviewCount": 256,
+      "stock": 45,
+      "sizes": ["6", "7", "8", "9", "10", "11", "12", "13"],
+      "colors": ["Black", "White", "Red", "Blue"],
+      "specs": {
+        "Material": "Synthetic leather and mesh",
+        "Weight": "225g",
+        "Stud Type": "Conical and bladed mix",
+        "Suitable For": "Natural grass and artificial turf"
+      },
+      "badge": "Top Seller",
+      "isFeatured": true,
+      "isNew": false
+    },
+    {
+      "id": "2",
+      "name": "Elite Running Shoe",
+      "brand": "SpeedRunner",
+      "price": 159.99,
+      "originalPrice": 199.99,
+      "category": "running",
+      "description": "Ultra-lightweight marathon running shoes",
+      "longDescription": "Built for long-distance runners who demand the best. These shoes feature responsive cushioning, breathable mesh upper, and a streamlined design to help you achieve your personal best.",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+        "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600"
+      ],
+      "rating": 4.9,
+      "reviewCount": 412,
+      "stock": 78,
+      "sizes": ["6", "7", "8", "9", "10", "11", "12", "13"],
+      "colors": ["Black", "White", "Orange", "Green"],
+      "specs": {
+        "Material": "Mesh and synthetic upper",
+        "Weight": "185g",
+        "Midsole": "EVA foam with gel cushioning",
+        "Suitable For": "Road running, marathons"
+      },
+      "badge": "Best Seller",
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "3",
+      "name": "Dumbbell Set (20lb)",
+      "brand": "PowerFit",
+      "price": 79.99,
+      "originalPrice": 99.99,
+      "category": "fitness",
+      "description": "Adjustable dumbbell set for home gym",
+      "longDescription": "Perfect for strength training at home. This versatile dumbbell set includes everything you need for a complete upper body workout. Easy to adjust and store.",
+      "images": [
+        "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600",
+        "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=600&crop=faces"
+      ],
+      "rating": 4.7,
+      "reviewCount": 189,
+      "stock": 32,
+      "sizes": ["One Size"],
+      "colors": ["Black", "Red"],
+      "specs": {
+        "Weight": "20lbs total (2x10lb)",
+        "Material": "Cast iron with rubber coating",
+        "Grip": "Knurled steel handles",
+        "Warranty": "2 years"
+      },
+      "badge": "Premium",
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "4",
+      "name": "Hiking Backpack 60L",
+      "brand": "TrailMaster",
+      "price": 199.99,
+      "originalPrice": 249.99,
+      "category": "outdoor",
+      "description": "Professional hiking and trekking backpack",
+      "longDescription": "Designed for serious hikers and trekkers. This 60-liter capacity backpack features weather-resistant fabric, ergonomic design, and multiple compartments for organized packing.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&crop=faces"
+      ],
+      "rating": 4.9,
+      "reviewCount": 324,
+      "stock": 28,
+      "sizes": ["Medium", "Large"],
+      "colors": ["Navy Blue", "Forest Green", "Black"],
+      "specs": {
+        "Capacity": "60 liters",
+        "Weight": "1.8kg",
+        "Material": "Nylon with waterproof coating",
+        "Frame": "Aluminum frame support"
+      },
+      "badge": null,
+      "isFeatured": true,
+      "isNew": false
+    },
+    {
+      "id": "5",
+      "name": "Basketball Pro Edition",
+      "brand": "CourtSports",
+      "price": 49.99,
+      "originalPrice": 59.99,
+      "category": "basketball",
+      "description": "Official tournament-grade basketball",
+      "longDescription": "Regulation-size basketball used in professional tournaments. Superior grip, durability, and consistent bounce for serious players.",
+      "images": [
+        "https://images.unsplash.com/photo-1546519638-68711109f7ff?w=600",
+        "https://images.unsplash.com/photo-1546519638-68711109f7ff?w=600&h=600&crop=faces"
+      ],
+      "rating": 4.8,
+      "reviewCount": 167,
+      "stock": 95,
+      "sizes": ["Size 7 (Official)"],
+      "colors": ["Orange", "Black"],
+      "specs": {
+        "Material": "Genuine leather",
+        "Size": "Official 7",
+        "Weight": "600g",
+        "Pump": "Included"
+      },
+      "badge": "Best Seller",
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "6",
+      "name": "Racing Bicycle",
+      "brand": "VeloCycle",
+      "price": 899.99,
+      "originalPrice": 1099.99,
+      "category": "cycling",
+      "description": "High-performance carbon fiber road bike",
+      "longDescription": "Lightweight carbon fiber frame with 21-speed Shimano gearing system. Perfect for road racing and long-distance touring. Engineered for speed and efficiency.",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=600&crop=faces"
+      ],
+      "rating": 4.9,
+      "reviewCount": 89,
+      "stock": 12,
+      "sizes": ["Small (48cm)", "Medium (52cm)", "Large (56cm)", "XL (60cm)"],
+      "colors": ["Carbon Black", "Red", "Blue"],
+      "specs": {
+        "Frame": "Carbon fiber",
+        "Gearing": "21-speed Shimano Altus",
+        "Wheels": "700c alloy rims",
+        "Weight": "7.2kg"
+      },
+      "badge": "Premium",
+      "isFeatured": true,
+      "isNew": true
+    },
+    {
+      "id": "7",
+      "name": "Sports Compression Shorts",
+      "brand": "ComfortWear",
+      "price": 34.99,
+      "originalPrice": 44.99,
+      "category": "fitness",
+      "description": "High-performance compression athletic shorts",
+      "longDescription": "Engineered with advanced compression technology to improve blood circulation and reduce muscle fatigue. Moisture-wicking fabric keeps you dry and comfortable.",
+      "images": [
+        "https://images.unsplash.com/photo-1506629082847-11d3cdc7f5b7?w=600"
+      ],
+      "rating": 4.6,
+      "reviewCount": 142,
+      "stock": 156,
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["Black", "Gray", "Navy", "Olive"],
+      "specs": {
+        "Material": "Nylon and spandex blend",
+        "Compression": "4-way stretch",
+        "Fit": "Snug compression fit",
+        "Care": "Machine wash cold"
+      },
+      "badge": null,
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "8",
+      "name": "Trail Running Watch",
+      "brand": "FitTrack",
+      "price": 299.99,
+      "originalPrice": 349.99,
+      "category": "running",
+      "description": "GPS sports watch with heart rate monitor",
+      "longDescription": "Advanced GPS tracking with real-time heart rate monitoring. Waterproof design with 10-day battery life. Perfect for trail running, marathon training, and outdoor adventures.",
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
+      ],
+      "rating": 4.8,
+      "reviewCount": 267,
+      "stock": 34,
+      "sizes": ["One Size"],
+      "colors": ["Black", "Gray", "Blue"],
+      "specs": {
+        "Display": "AMOLED touch screen",
+        "Battery": "10 days (normal mode)",
+        "Water Resistance": "5ATM (50m)",
+        "Sensors": "GPS, heart rate, temperature"
+      },
+      "badge": "Premium",
+      "isFeatured": false,
+      "isNew": true
+    },
+    {
+      "id": "9",
+      "name": "Yoga Mat Pro",
+      "brand": "ZenFlow",
+      "price": 54.99,
+      "originalPrice": 69.99,
+      "category": "fitness",
+      "description": "Premium non-slip yoga and meditation mat",
+      "longDescription": "6mm thick natural rubber yoga mat with non-slip surface. Eco-friendly, durable, and perfect for yoga, pilates, and floor exercises.",
+      "images": [
+        "https://images.unsplash.com/photo-1506019613-7fa5436fbc31?w=600"
+      ],
+      "rating": 4.7,
+      "reviewCount": 289,
+      "stock": 67,
+      "sizes": ["Standard (68x24in)"],
+      "colors": ["Purple", "Blue", "Green", "Black"],
+      "specs": {
+        "Material": "Natural rubber",
+        "Thickness": "6mm",
+        "Non-slip": "Both sides",
+        "Weight": "2.1kg"
+      },
+      "badge": "Best Seller",
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "10",
+      "name": "Football Jersey Pack",
+      "brand": "SportGear",
+      "price": 89.99,
+      "originalPrice": 119.99,
+      "category": "football",
+      "description": "Set of 2 professional football jerseys",
+      "longDescription": "Pack of 2 high-quality football jerseys with moisture-wicking technology. Perfect for teams or individual training. Durable polyester blend.",
+      "images": [
+        "https://images.unsplash.com/photo-1608245449230-4ac99233ae3d?w=600"
+      ],
+      "rating": 4.5,
+      "reviewCount": 98,
+      "stock": 124,
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": ["Red/Black", "Blue/White", "Green/Yellow"],
+      "specs": {
+        "Material": "100% polyester",
+        "Fit": "Regular athletic fit",
+        "Features": "Moisture-wicking, ventilated",
+        "Qty": "2 jerseys per pack"
+      },
+      "badge": null,
+      "isFeatured": false,
+      "isNew": false
+    },
+    {
+      "id": "11",
+      "name": "Outdoor Tent 4-Person",
+      "brand": "TrailMaster",
+      "price": 249.99,
+      "originalPrice": 299.99,
+      "category": "outdoor",
+      "description": "Weatherproof 4-person camping tent",
+      "longDescription": "Durable 4-person tent with fully taped seams and waterproof floor. Ideal for camping, hiking, and outdoor expeditions. Easy setup in under 5 minutes.",
+      "images": [
+        "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?w=600"
+      ],
+      "rating": 4.8,
+      "reviewCount": 201,
+      "stock": 19,
+      "sizes": ["One Size"],
+      "colors": ["Forest Green", "Gray", "Navy Blue"],
+      "specs": {
+        "Capacity": "4 person",
+        "Weight": "3.2kg",
+        "Material": "Nylon with waterproof coating",
+        "Setup Time": "< 5 minutes"
+      },
+      "badge": "Premium",
+      "isFeatured": true,
+      "isNew": false
+    },
+    {
+      "id": "12",
+      "name": "Professional Gym Bag",
+      "brand": "PowerFit",
+      "price": 69.99,
+      "originalPrice": 89.99,
+      "category": "fitness",
+      "description": "Large gym and sports duffel bag",
+      "longDescription": "Spacious gym bag with multiple compartments, shoe pocket, and water bottle holder. Water-resistant material with durable zippers.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600"
+      ],
+      "rating": 4.6,
+      "reviewCount": 156,
+      "stock": 76,
+      "sizes": ["One Size"],
+      "colors": ["Black", "Navy", "Red"],
+      "specs": {
+        "Capacity": "45 liters",
+        "Material": "Polyester with water resistance",
+        "Compartments": "5 main + shoe pocket",
+        "Warranty": "1 year"
+      },
+      "badge": null,
+      "isFeatured": false,
+      "isNew": false
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "productId": "1",
+      "author": "John Smith",
+      "rating": 5,
+      "title": "Excellent football cleats!",
+      "comment": "Great quality and very comfortable. Perfect fit and excellent traction on the field. Highly recommend!",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "r2",
+      "productId": "1",
+      "author": "Mike Johnson",
+      "rating": 4,
+      "title": "Good value for money",
+      "comment": "Solid cleats. Took a week to break in, but now they're very comfortable. Good support.",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "r3",
+      "productId": "2",
+      "author": "Sarah Davis",
+      "rating": 5,
+      "title": "Best running shoes ever!",
+      "comment": "Lightweight, responsive, and incredibly comfortable for long runs. Worth every penny!",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "r4",
+      "productId": "2",
+      "author": "Alex Chen",
+      "rating": 5,
+      "title": "Marathon-ready",
+      "comment": "Used these for my first marathon. Cushioning is perfect, no blisters, and great arch support.",
+      "date": "2026-10-12"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "WELCOME10",
+      "type": "percentage",
+      "value": 10,
+      "minPurchase": 50,
+      "description": "Welcome discount - 10% off orders over $50",
+      "expiryDate": "2026-12-31"
+    },
+    {
+      "code": "SAVE20",
+      "type": "percentage",
+      "value": 20,
+      "minPurchase": 100,
+      "description": "20% off orders over $100",
+      "expiryDate": "2026-12-31"
+    },
+    {
+      "code": "FREESHIP",
+      "type": "fixed",
+      "value": 15,
+      "minPurchase": 75,
+      "description": "Free shipping on orders over $75",
+      "expiryDate": "2026-12-31"
+    },
+    {
+      "code": "SUMMER25",
+      "type": "percentage",
+      "value": 25,
+      "minPurchase": 150,
+      "description": "25% off summer collection over $150",
+      "expiryDate": "2026-11-30"
+    }
+  ],
+  "wheelRewards": [
+    {
+      "id": "w1",
+      "type": "coupon",
+      "value": "SPIN10",
+      "label": "10% Off Coupon",
+      "color": "#FF6B6B",
+      "probability": 0.25
+    },
+    {
+      "id": "w2",
+      "type": "points",
+      "value": 100,
+      "label": "100 Bonus Points",
+      "color": "#4ECDC4",
+      "probability": 0.25
+    },
+    {
+      "id": "w3",
+      "type": "coupon",
+      "value": "SPIN20",
+      "label": "20% Off Coupon",
+      "color": "#FFD93D",
+      "probability": 0.15
+    },
+    {
+      "id": "w4",
+      "type": "freeShipping",
+      "value": "FREE_SHIP",
+      "label": "Free Shipping",
+      "color": "#95E1D3",
+      "probability": 0.2
+    },
+    {
+      "id": "w5",
+      "type": "points",
+      "value": 250,
+      "label": "250 Bonus Points",
+      "color": "#F38181",
+      "probability": 0.1
+    },
+    {
+      "id": "w6",
+      "type": "coupon",
+      "value": "SPIN5",
+      "label": "5% Off Coupon",
+      "color": "#AA96DA",
+      "probability": 0.05
+    }
+  ]
+}
