@@ -1,0 +1,12 @@
+Please verify the actual live connection to Roblox Studio through the Roblox_Studio MCP server.
+
+List the Roblox Studio MCP tools currently available to you and perform a safe, read-only inspection of my currently open Studio project.
+
+Tell me:
+
+- Whether the live connection works.
+- Whether you can read the Explorer hierarchy.
+- Whether you can create and edit Roblox Instances and Scripts.
+- Whether you can inspect the Output window.
+
+Do not modify anything yet. Report only verified results.
