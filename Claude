@@ -1,0 +1,24 @@
+Before starting the development of +1 WORLD SHIFT, I want you to perform a preparation and capability inspection only.
+
+IMPORTANT RULES:
+
+1. Do NOT start building the game yet.
+2. Do NOT generate large scripts or create unnecessary assets.
+3. First inspect your actual connected Roblox Studio tools and verify which actions you can perform.
+4. Confirm whether you can create and edit Parts, Models, Scripts, ModuleScripts, GUIs, Lighting, and other Roblox Instances.
+5. Confirm whether you can run Roblox Studio tests and inspect errors.
+6. Identify any limitations involving meshes, animations, audio, external assets, and multiplayer testing.
+7. Check the current Roblox Studio project and report whether it is empty or contains existing work.
+8. Do not assume any tool or capability exists without verifying it.
+
+Then give me a concise report containing:
+
+- Available tools.
+- Verified capabilities.
+- Limitations.
+- Recommended development order.
+- The best way to preserve progress and minimize unnecessary usage of your available credits.
+
+Do not begin implementation until I send you the full game development specification.
+
+Be honest, concise, and technically accurate.
